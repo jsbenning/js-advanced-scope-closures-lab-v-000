@@ -1,5 +1,5 @@
 function produceDrivingRange(blockRange){
-  this.blockrange = blockrange;
+  this.blockRange = blockRange;
   return function(start, end){ 
     if (Math.abs(start - end) > blockRange) {
       return false;
