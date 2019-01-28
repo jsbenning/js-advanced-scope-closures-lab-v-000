@@ -22,6 +22,6 @@ function createDriver(){
   let driverId = 0;
   return class Driver(name){
     this.name = name;
-    this driverId = ++
+    this id = ++driverId;
   }
 }
