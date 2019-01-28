@@ -17,3 +17,8 @@ function produceTipCalculator(tip){
     return (fare * tip);
   };
 }
+
+function createDriver(name){
+  let driverId = 0;
+  return class Driver
+}
