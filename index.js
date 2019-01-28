@@ -3,10 +3,11 @@ function produceDrivingRange(blockRange){
   return function(start, end){
     let p1 = parseInt(start);
     let p2 = parseInt(end);
-    if (Math.abs(p1 - p2) > blockRange) {
-      return false;
+    let dist = Math.abs(p1 - p2);
+    if (dist > blockRange) {
+      return ((dist - blockRange) + " blocks out of range!");
     } else {
-      return true;
+      return ("Within range by " + (blockRange - dist));
     }
   }
 }
