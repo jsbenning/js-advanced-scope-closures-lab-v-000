@@ -9,5 +9,9 @@ function produceDrivingRange(blockRange){
     } else {
       return ("within range by " + (blockRange - dist));
     }
-  }
+  };
+}
+
+function produceTipCalculator(){
+  
 }
