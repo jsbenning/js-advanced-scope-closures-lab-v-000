@@ -1,5 +1,5 @@
 function produceDrivingRange(blockRange){
-  this.blockRange = blockRange;
+  let this.blockRange = blockRange;
   return function(start, end){
     let p1 = parseInt(start);
     let p2 = parseInt(end);
